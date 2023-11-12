@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 jobs:
   aio-helm-build:
-    uses: ixxeL-actions/workflows/.github/workflows/helm-build.yaml@main
+    uses: ixxeL-actions/workflows/.github/workflows/helm-build.yaml@fix/helm-build
     with:
       workingdir: chart
       helm-values-file-test: values.yaml
